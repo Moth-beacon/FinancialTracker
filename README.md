@@ -1,71 +1,48 @@
-# Project Title
+# Financial Tracker
 
 ## Description of the Project
+This Java CLI application allows users to track their financial transactions—such as deposits and payments—in a personal ledger. Users can add transactions, view their full ledger, filter by dates or vendors, and generate useful reports. The project simulates a basic accounting system for personal or academic use.
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
-
-![Class Diagram](path/to/your/class_diagram.png)
+## Class Diagram
+*Coming soon*
 
 ## User Stories
-
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
-
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
+- As a user, I want to be able to input my data so that the application can process it accordingly.
 - As a user, I want to receive immediate feedback, so I can understand what to do next.
 
 ## Setup
-
-Instructions on how to set up and run the project using IntelliJ IDEA.
-
-### Prerequisites
-
-- IntelliJ IDEA: Ensure you have IntelliJ IDEA installed, which you can download from [here](https://www.jetbrains.com/idea/download/).
-- Java SDK: Make sure Java SDK is installed and configured in IntelliJ.
-
-### Running the Application in IntelliJ
-
-Follow these steps to get your application running within IntelliJ IDEA:
-
 1. Open IntelliJ IDEA.
-2. Select "Open" and navigate to the directory where you cloned or downloaded the project.
-3. After the project opens, wait for IntelliJ to index the files and set up the project.
-4. Find the main class with the `public static void main(String[] args)` method.
-5. Right-click on the file and select 'Run 'YourMainClassName.main()'' to start the application.
+2. Select "Open" and navigate to the directory where the project is located.
+3. After it loads, wait for IntelliJ to index the files and configure the project.
+4. Run the class with the `public static void main(String[] args)` method.
+5. Right-click on the file and select **Run 'FinancialTracker.main()'** to launch the application.
 
 ## Technologies Used
-
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- **Language:** Java 17
+- **Build Tool:** Maven
+- **Libraries Used:** None beyond Java SE 17 standard libraries
 
 ## Demo
-
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
-
-![Application Screenshot](path/to/your/screenshot.png)
+Include a screenshot or recording 
 
 ## Future Work
-
-Outline potential future enhancements or functionalities you might consider adding:
-
-- Additional feature to be developed.
-- Improvement of current functionalities.
+- Add a GUI version using JavaFX or Swing.
+- Allow editing or deleting of transactions.
+- Add password protection for privacy.
+- Improve filtering (e.g. by category or tags).
 
 ## Resources
-
-List resources such as tutorials, articles, or documentation that helped you during the project.
-
-- [Java Programming Tutorial](https://www.example.com)
-- [Effective Java](https://www.example.com)
+- Raymond’s Java cheat sheets
+- [W3Schools - Java](https://www.w3schools.com/java/)
+- [Stack Overflow](https://stackoverflow.com)
+- Earlier C++ assignments from college coursework
+- Earlier Java assignments in LTCA
 
 ## Team Members
-
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
+- Raymond (instructor)
+- *This project was completed individually by the student.*
 
 ## Thanks
-
-Express gratitude towards those who provided help, guidance, or resources:
-
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
+- Thank you to **Raymond Maroun** for continuous support and guidance.
+- A special thanks to all previous coursework and resources that inspired and supported this build.
  
