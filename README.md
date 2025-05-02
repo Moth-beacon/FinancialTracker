@@ -23,7 +23,7 @@ This Java CLI application allows users to track their financial transactions—s
 - **Libraries Used:** None beyond Java SE 17 standard libraries
 
 ## Demo
-Include a screenshot or recording 
+![Gif](C:\Users\fireh\OneDrive\Desktop\pluralsight\capstones\FinancialTracker\demo.gif)
 
 ## Future Work
 - Add a GUI version using JavaFX or Swing.
