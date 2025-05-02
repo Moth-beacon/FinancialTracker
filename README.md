@@ -25,7 +25,6 @@ This Java CLI application allows users to track their financial transactions—s
 ![demo.gif](demo.gif)
 
 ## Future Work
-- Add a GUI version using JavaFX or Swing.
 - Allow editing or deleting of transactions.
 - Add password protection for privacy.
 - Improve filtering (e.g. by category or tags).
@@ -39,9 +38,9 @@ This Java CLI application allows users to track their financial transactions—s
 
 ## Team Members
 - Raymond (instructor)
-- *This project was completed individually by the student.*
+- *This project was completed individually by the student (aka ME)*
 
 ## Thanks
-- Thank you to **Raymond Maroun** for continuous support and guidance.
-- A special thanks to all previous coursework and resources that inspired and supported this build.
+- Special Thank you to **Raymond Maroun** for continuous support and guidance.
+- A thanks to all previous coursework and resources that inspired and supported this build.
  
