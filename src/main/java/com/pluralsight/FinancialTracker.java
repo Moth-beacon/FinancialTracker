@@ -55,16 +55,6 @@ public class FinancialTracker {
         scanner.close();
     }
 
-    public static void saveTransaction(Transaction t, String fileName) {
-        try {
-            FileWriter writer = new FileWriter(fileName, true); // true = append mode
-            writer.write(t.toCSV() + "\n");
-            writer.close();
-        } catch (Exception e) {
-            System.out.println("Error saving transaction: " + e.getMessage());
-        }
-    }
-
     public static void loadTransactions(String fileName) {
         try {
             File file = new File(fileName);
@@ -92,6 +82,15 @@ public class FinancialTracker {
             fileScanner.close();
         } catch (Exception e) {
             System.out.println("Error loading transactions: " + e.getMessage());
+        }
+    }
+    public static void saveTransaction(Transaction t, String fileName) {
+        try {
+            FileWriter writer = new FileWriter(fileName, true); // true = append mode
+            writer.write(t.toCSV() + "\n");
+            writer.close();
+        } catch (Exception e) {
+            System.out.println("Error saving transaction: " + e.getMessage());
         }
     }
 

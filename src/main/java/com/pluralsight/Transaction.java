@@ -7,7 +7,6 @@ public class Transaction {
     private String vendor;
     private double amount;
 
-    // Constructor
     public Transaction(String date, String time, String description, String vendor, double amount) {
         this.date = date;
         this.time = time;
@@ -16,7 +15,6 @@ public class Transaction {
         this.amount = amount;
     }
 
-    // Getters
     public String getDate() {
         return date;
     }
@@ -37,7 +35,6 @@ public class Transaction {
         return amount;
     }
 
-    // Setters
     public void setDate(String date) {
         this.date = date;
     }
