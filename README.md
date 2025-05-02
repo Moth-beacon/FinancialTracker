@@ -1,7 +1,7 @@
 # Financial Tracker
 
 ## Description of the Project
-This Java CLI application allows users to track their financial transactions—such as deposits and payments—in a personal ledger. Users can add transactions, view their full ledger, filter by dates or vendors, and generate useful reports. The project simulates a basic accounting system for personal or academic use.
+This Java application allows users to track their financial transactions such as deposits and payments in a personal ledger. Users can add transactions, view their full ledger, filter by dates or vendors, and generate useful reports. The project simulates a basic accounting system.
 
 ## Demo Screenshot
 ![Screenshot.png](Screenshot.png)
